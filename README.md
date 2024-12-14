@@ -62,21 +62,21 @@ Follow these steps to set up the project on your local machine:
 
 2. Install the required dependencies:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Create a .env file in the project directory and add the following environment variables:
 
-  ```plaintext
-  SPEECH_REGION=eastus
-  SPEECH_KEY=your_speech_key
-  GPT_ENDPOINT=https://your-gpt-endpoint
-  GPT_API_KEY=your_gpt_api_key
-  AI_SEARCH_ENDPOINT=https://your-search-endpoint
-  AI_SEARCH_KEY=your_search_key
-  AI_SEARCH_INDEX=your_search_index
-  AI_SEARCH_SEMANTIC=your_search_semantic
-  ```
+    ```plaintext
+    SPEECH_REGION=eastus
+    SPEECH_KEY=your_speech_key
+    GPT_ENDPOINT=https://your-gpt-endpoint
+    GPT_API_KEY=your_gpt_api_key
+    AI_SEARCH_ENDPOINT=https://your-search-endpoint
+    AI_SEARCH_KEY=your_search_key
+    AI_SEARCH_INDEX=your_search_index
+    AI_SEARCH_SEMANTIC=your_search_semantic
+    ```
 
 ## Running the Application
 To start the application, run:
